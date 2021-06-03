@@ -353,6 +353,14 @@
             "markers": "python_version >= '3.6'",
             "version": "==1.4.1"
         },
+        "jupyterhub-singleuser-profiles": {
+            "hashes": [
+                "sha256:6f20ec247108962692da693d21a5eb7258a5a085f79e35f4310377f24bc55911",
+                "sha256:8d415d0d3b39e50b30df32ff984b1f287ded61e2e6b1947887d6198ef5fe6049"
+            ],
+            "index": "pypi",
+            "version": "==0.4.1"
+        },
         "kubernetes": {
             "hashes": [
                 "sha256:1a2472f8b01bc6aa87e3a34781f859bded5a5c8ff791a53d889a8bd6cc550430",
