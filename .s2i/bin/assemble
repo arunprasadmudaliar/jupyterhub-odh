@@ -5,7 +5,7 @@ set -e
 pip uninstall -y jupyterhub-singleuser-profiles
 # pip install jupyterhub-ui-sg23==0.3.0
 # pip install jupyterhub-singleuser-profiles==0.3.1
-pip install jupyterhub-singleuser-profiles-01==0.4.1
+pip install jupyterhub-singleuser-profiles-02==0.4.1
 # pip show jupyterhub-singleuser-profiles-jsptest
 # Install pycurl for tornado to support self-signed certs - see https://github.com/jupyterhub/oauthenticator/pull/410
 pip install --compile --install-option="--with-nss" --no-cache-dir pycurl
@@ -28,5 +28,5 @@ cp -a ${JSP_UI_SRC_PATH}/build/. /opt/app-root/share/jupyterhub/static/jsp-ui
 
 cd ${JSP_UI_SRC_PATH}/templates/
 yes | cp -rf spawn.html /opt/app-root/share/jupyterhub/templates/
-pip show jupyterhub-singleuser-profiles-01
+pip show jupyterhub-singleuser-profiles-02
 fix-permissions /opt/app-root
